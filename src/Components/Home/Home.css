@@ -1,0 +1,56 @@
+
+
+/* Style for the hero section */
+.hero {
+    padding: 3rem 0;
+    background-color: rgb(238, 233, 233);
+  }
+  
+  .site-logo {
+    color: #333;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 30rem;
+    margin-top: 115px;
+  }
+  
+  .subtitle {
+    color: #666;
+    font-size: 1.25rem;
+    margin-left: 30rem;
+    margin-bottom: 0.2px;
+  }
+  
+  /* Style for the search input and button */
+  .field {
+    margin-bottom: 2rem ;
+  }
+  
+  .input {
+    margin-left: 30rem;
+    border-radius: 21px;
+    padding: 0.5rem 1rem;
+    border: 0.5px solid #ccc;
+    width: 25%;
+  }
+  
+  .button {
+    border-radius: 35px;
+    padding: 0.5rem 2rem;
+    background-color: rgb(250, 67, 67);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 30rem;
+  }
+  
+  .button:hover {
+    background-color: rgb(240, 158, 158);
+  }
+  
+  /* Center the content */
+  .container {
+    text-align: center;
+  }
+  
