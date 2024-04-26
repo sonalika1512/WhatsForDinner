@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css' ;
+import AppComponent from  '../searchRecipe/searchRecipe.js';
+
 
 function App() {
   return (
@@ -35,6 +37,7 @@ function App() {
             </div>
           </div>
         </div>
+      <AppComponent/>
       </section>
     </>
   );
