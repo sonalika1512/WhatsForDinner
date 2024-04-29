@@ -10,7 +10,7 @@
 }
 
 .container {
-  max-width: 960px;
+  max-width: 980px;
 }
 
 .title {
@@ -19,16 +19,22 @@
 
 .input {
   width: 100%;
+  margin-left:350px;
+  border-radius:3px
+
 }
 
 .footer-logo {
-  text-align: center;
+  text-align: left;
+  display: flex;
 }
-.square-image {
-  width: 200px; /* Adjust the width as needed */
-  height: 200px; /* Set the same height as the width */
-  object-fit: cover; /* Ensures the image covers the entire container */
+.footer-logo img {
+  width: 30%; /* Set image width to 100% */
+  height: auto; /* Automatically adjust image height */
+  border-radius: 0px;
 }
+
+
 
 
 .field.has-addons {
@@ -53,4 +59,22 @@
 
 .is-primary:hover {
   background-color: #00c4a7;
+}
+
+.column.is-three-quarters .title {
+  flex: 1; /* Allow the text content to take remaining space */
+  margin-left :350px;
+  margin-top:-250px;
+}
+
+.is-left-fa-map-marked-alt{
+  margin-right:350px;
+}
+
+.button-is-primary{
+  margin-left:350px;
+  margin-top:-300px;
+
+
+
 }
