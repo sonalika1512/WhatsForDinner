@@ -93,13 +93,12 @@ const RecipeListContainer = "div";
         <SearchBox className="SearchBox">
             <SearchIcon className="SearchIcon"  src={searchIconImage} alt="Search"/>
             <SearchInput className="SearchInput"
-              placeholder="Find a Recipe"
+              placeholder="Find a Recipe"              
               value={searchQuery}
               onChange={onTextChange}
             />
           </SearchBox>
-  
-  
+          
         <RecipeListContainer className="RecipeListContainer">
           {recipeList?.length ? (
             recipeList.map((recipe, index) => (

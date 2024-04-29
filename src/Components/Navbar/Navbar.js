@@ -18,14 +18,12 @@ class Navbar extends React.Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link btn btn-outline-light" href="#Explore_Recipes">Explore Recipes</a>
+                <a className="nav-link btn btn-outline-light" href="Recipes"> Recipes</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link btn btn-outline-light" href="#Meal_Planner">Meal Planner</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link btn btn-outline-light" href="#Shopping_List">Shopping List</a>
-              </li>
+
               <li className="nav-item">
                 <a className="nav-link btn btn-outline-light" href="#Login">Restaurants</a>
               </li>

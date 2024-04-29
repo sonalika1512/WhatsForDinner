@@ -2,59 +2,59 @@
 
 /* Custom styles for navbar */
 .navbar {
-    padding: 0.3rem; /* Add padding to navbar */
-    background-color: rgb(250, 67, 67);
-  }
-  
-  .navbar-brand {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Align items vertically */
-    font-size: 1.5rem; /* Increase font size of brand */
-    font-weight: bold;
-    margin-right: 100px ;
-    text-decoration: none; /* Remove default underline */
-  }
+  padding: 0.3rem; /* Add padding to navbar */
+  background-color: rgb(250, 67, 67);
+}
 
-  .navbar-logo {
-    width: 70px; /* Set width of the logo */
-    height: 70px; /* Automatically adjust height */
-    margin-right: 10px; /* Add margin to separate logo from text */
-    border-radius: 100px;
-  }
-  
-  .navbar-toggler {
-    border: none; /* Remove border from toggler */
-  }
-  
-  .navbar-toggler-icon {
-    background-color: #fdfbff; /* Change color of toggler icon */
-  }
-  
-  .navbar-nav .nav-link {
-    padding: 0.5rem 1rem; /* Add padding to nav links */
-    font-size: 1rem; /* Set font size of nav links */
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color:rgb(250, 67, 67); /* Change color of nav links on hover */
-  }
+.navbar-brand {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically */
+  font-size: 2.5rem; /* Increase font size of brand */
+  font-weight: bold;
+  margin-right: 100px ;
+  text-decoration: none; /* Remove default underline */
+}
 
-  .navbar-nav .nav-link::after {
-    content: ''; /* Create the line element */
-    position: absolute; /* Position the line absolutely */
-    bottom: 0; /* Align the line to the bottom */
-    left: 0; /* Start the line from the left */
-    width: 0; /* Initially set the width to 0 */
-    height: 2px; /* Set the height of the line */
-    background-color: #ffb158; /* Set the color of the line */
-    transition: width 0.3s ease; /* Add transition effect for smooth animation */
-  }
-  
-  .navbar-nav .nav-link.active::after {
-    width: 100%; /* Expand the width of the line to 100% when the link is active */
-  }
-  
-  .navbar-collapse {
-    justify-content: flex-end; /* Align nav links to the right */
-  }
+.navbar-logo {
+  width: 70px; /* Set width of the logo */
+  height: 70px; /* Automatically adjust height */
+  margin-right: 10px; /* Add margin to separate logo from text */
+  border-radius: 100px;
+}
 
+.navbar-toggler {
+  border: none; /* Remove border from toggler */
+}
+
+.navbar-toggler-icon {
+  background-color: #fdfbff; /* Change color of toggler icon */
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem; /* Add padding to nav links */
+  font-size: 1.1rem; /* Set font size of nav links */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color:rgb(250, 67, 67); /* Change color of nav links on hover */
+}
+
+.navbar-nav .nav-link::after {
+  content: ''; /* Create the line element */
+  position: absolute; /* Position the line absolutely */
+  bottom: 0; /* Align the line to the bottom */
+  left: 0; /* Start the line from the left */
+  width: 0; /* Initially set the width to 0 */
+  height: 2px; /* Set the height of the line */
+  background-color: #ffb158; /* Set the color of the line */
+  transition: width 0.3s ease; /* Add transition effect for smooth animation */
+}
+
+.navbar-nav .nav-link.active::after {
+  width: 100%; /* Expand the width of the line to 100% when the link is active */
+}
+
+.navbar-collapse {
+  justify-content: flex-end; /* Align nav links to the right */
+}

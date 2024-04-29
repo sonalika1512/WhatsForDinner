@@ -1,0 +1,104 @@
+/* Footer.css */
+
+.footer {
+  background-color: #363636;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.link-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 5px;
+}
+
+.link-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-list li a:hover {
+  text-decoration: underline;
+}
+
+.footer-column {
+  margin-bottom: 20px;
+}
+
+.footer-logo h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.footer-logo h3 br {
+  display: none;
+}
+
+.footer-logo h3:hover {
+  color: #ffd700;
+}
+
+.footer-logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.level-item:hover {
+  transform: translateY(-3px);
+}
+
+.bd-tw-button {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bd-tw-button:hover {
+  background-color: #0d8af0;
+}
+
+.button.is-primary {
+  background-color: #3273dc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button.is-primary:hover {
+  background-color: #276cda;
+}
+
+.made-with-bulma {
+  margin-top: 20px;
+}
+
+.made-with-bulma img {
+  width: 128px;
+  height: 24px;
+}

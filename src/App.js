@@ -3,6 +3,11 @@ import './App.css';
 import Navbar from  './Components/Navbar/Navbar.js' ;
 import Home from  './Components/Home/Home.js' ;
 import WeeklyMeal from  './Components/WeeklyMeal/WeeklyMeal.js' ;
+import Footer from  './Components/Footer/Footer.js' ;
+import { DisplaySavedRecipe, SearchRestaurants } from './Components/Restaurants/Restaurants.js'; // Import the components correctly
+
+
+
 
 function App() {
   return (
@@ -10,7 +15,9 @@ function App() {
     <Navbar/>
     <Home/>
     <WeeklyMeal/>
-    
+    <DisplaySavedRecipe />
+    <SearchRestaurants/>
+    <Footer/>
 
     </>
 

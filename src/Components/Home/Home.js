@@ -25,12 +25,12 @@ function App() {
               <div className="column is-three-quarters-mobile is-half-desktop">
                 <div className="field is-fullwidth has-addons">
                   <div className="control">
-                    <input id="find-recipe" className="input" type="text" placeholder="Find a recipe" />
+                    {/* <input id="find-recipe" className="input" type="text" placeholder="Find a recipe" />
                   </div>
                   <div id="search-recipe" className="control">
                     <a className="button is-primary">
                       Search
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
