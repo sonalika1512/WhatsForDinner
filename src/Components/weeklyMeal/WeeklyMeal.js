@@ -12,9 +12,6 @@ const WeeklyMeal = () => {
           <div className="tile is-ancestor">
             <div className="tile is-parent is-12">
               <div className="tile is-child">
-                <h2 className="site-logo title is-1 has-text-white">
-                  What's For Dinner?
-                </h2>
               </div>
               <div className="tile is-child">
 
