@@ -19,6 +19,7 @@
     font-size: 1.25rem;
     margin-left: 30rem;
     margin-bottom: 0.2px;
+   
   }
   
   /* Style for the search input and button */
@@ -34,23 +35,29 @@
     width: 25%;
   }
   
-  .button {
-    border-radius: 35px;
-    padding: 0.5rem 2rem;
-    background-color: rgb(250, 67, 67);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin-top: 60px;
-    margin-left: 30rem;
-  }
-  
-  .button:hover {
-    background-color: rgb(240, 158, 158);
-  }
   
   /* Center the content */
   .container {
     text-align: center;
+  }
+
+  .image {
+    width: 400px ;
+    float: left; /* Float the image to the left */
+    margin-right: 100px; /* Adjust the right margin for spacing */
+    animation : rotate 10s linear infinite;
+    height: 400px ;
+    border-radius: 90%;
+    overflow:hidden;
+    margin-top: -450px;
+  }
+
+  @keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
   }
   
