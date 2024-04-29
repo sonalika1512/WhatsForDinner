@@ -1,9 +1,17 @@
-import React from 'react';
-import './Home.css' ;
-import AppComponent from  '../searchRecipe/searchRecipe.js';
+import React, { useState } from 'react';
+import './Home.css';
+import AppComponent from '../searchRecipe/searchRecipe.js'; // Corrected import
 
+import homeimg from './homeimg.jpg'; // Importing the image file
 
 function App() {
+  const [searchQuery, setSearchQuery] = useState(''); // State to manage the search query
+
+  // Function to handle input change in the search bar
+  const handleInputChange = (event) => {
+    setSearchQuery(event.target.value);
+  };
+
   return (
     <>
       <section id="start-search" className="hero is-medium is-white">
@@ -24,21 +32,23 @@ function App() {
             <div className="columns is-mobile is-centered">
               <div className="column is-three-quarters-mobile is-half-desktop">
                 <div className="field is-fullwidth has-addons">
-                  <div className="control">
-                    {/* <input id="find-recipe" className="input" type="text" placeholder="Find a recipe" />
-                  </div>
-                  <div id="search-recipe" className="control">
-                    <a className="button is-primary">
-                      Search
-                    </a> */}
-                  </div>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      <AppComponent/>
       </section>
+      <section id="image-section" className="hero is-medium">
+        <div className="hero-body">
+          <div className="container">
+            <img src={homeimg} alt="Dinner" className="image" /> {/* Use imported image */}
+          </div>
+        </div>
+      </section>
+
+      <AppComponent />
+      
     </>
   );
 }
