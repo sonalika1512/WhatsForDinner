@@ -101,13 +101,13 @@ function SearchRestaurants() {
             </div>
             <div className="column is-three-quarters">
               <h3 className="title">Not enough time to cook? Search restaurants in your area:</h3>
-              <label htmlFor="find-restaurant"><i className="icon is-left fas fa-map-marked-alt"></i> Enter city:</label>
+              <label htmlFor="find-restaurant"><i className="is-left-fa-map-marked-alt"></i> Enter city:</label>
               <div className="field has-addons">
                 <div className="control">
                   <input id="find-restaurant" className="input" type="text" placeholder="Olathe, KS" onKeyPress={handleKeyPress} />
                 </div>
                 <div id="search-restaurant" className="control">
-                  <button className="button is-primary" onClick={handleSearchRestaurant}>Search</button>
+                  <button className="button-is-primary" onClick={handleSearchRestaurant}>Search</button>
                 </div>
               </div>
               <div id="restaurantArea"></div>
